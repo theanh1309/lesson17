@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.all{
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+   background-color: aquamarine;
+
+}
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(127, 140, 255);
+
+}
+.logo{
+    width: 300px;
+    height: 90px;
+    background-color: rgb(157, 255, 127);
+
+   float: left;
+}
+.logo span {
+    margin-left: 90px;
+    line-height: 60px;
+}
+.banner{
+    width: 690px;
+    height: 90px;
+    background-color: rgb(0, 156, 104);
+
+   float: left;
+}
+.banner span {
+    margin-left: 400px;
+    line-height: 60px;
+}
+.menu{
+    width: 1000px;
+    height: 50px;
+    background-color:rgb(236, 40, 40);
+
+}
+.menu1{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(127, 255, 148);
+    float: left;
+}
+.menu1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+.menu1 > ul > li{
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    padding: 0px 15px;
+    border-right: 1px solid #000000;  
+
+}
+.menu1 li:last-child {
+    border-right: none;
+  }
+.search input{
+    float: left;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.content{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(9, 218, 148);
+   
+}
+.contentleft{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(29, 211, 23);
+    float: left;
+}
+.contentleftup{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(23, 235, 224);
+}
+.contentleft  ul  li{
+    list-style-type: none;
+    line-height: 50px;
+    padding: 0px 15px;
+    border-right: 1px solid #000000;  
+}
+.contentleftdown{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(168, 230, 226);
+}
+.contentcenter{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(161, 211, 23);
+    float: left;
+}
+.h1{
+    width: 290px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+}
+.h2{
+    width: 290px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+}
+.h3{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h4{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h5{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h6{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h7{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h8{
+    width: 190px;
+    height: 150px;
+    border: 1px solid yellow;
+    float: left;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.h1a{
+    margin-left: 100px;
+    line-height: 60px;
+}
+.footer span{
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.footer ul li{
+    
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    padding: 0px 15px;
+    border-right: 1px solid #000000
+}
+.footer li:last-child {
+    border-right: none;
+  }
+  .menu2{
+    margin-left: 500px;  
+  }
+  .footer a {
+    text-decoration: none;
+    color: rgb(3, 2, 2);
+    padding-left: 10px;
+}
+.all li:hover{
+    background-color: rgb(134, 43, 209);
+}
+.all li:hovoner a{
+    color: cornflowerblue;
+}
